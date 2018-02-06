@@ -13,13 +13,13 @@
 			data-sap-ui-compatVersion="edge"
 			data-sap-ui-preload="async"
 			data-sap-ui-resourceroots='{
-				"nttdata.ui5.template.start": "../"
+				"nttdata.ui5.techdemo.start": "../"
 			}'>
 		</script>
 		<script>
 			sap.ui.getCore().attachInit(function () {
 				sap.ui.require([
-					"nttdata/ui5/template/start/localService/mockserver",
+					"nttdata/ui5/techdemo/start/localService/mockserver",
 					"sap/m/Shell",
 					"sap/ui/core/ComponentContainer"
 				], function (mockserver, Shell, ComponentContainer) {
@@ -28,7 +28,7 @@
 					new Shell({
 						app : new ComponentContainer({
 							height: "100%",
-							name: "nttdata.ui5.template.start"
+							name: "nttdata.ui5.techdemo.start"
 						})
 					}).placeAt("content");
 				});

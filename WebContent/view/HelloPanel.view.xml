@@ -1,5 +1,5 @@
 <mvc:View
-   controllerName="nttdata.ui5.template.start.controller.HelloPanel"
+   controllerName="nttdata.ui5.techdemo.start.controller.HelloPanel"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc">
    <Panel

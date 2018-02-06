@@ -1,9 +1,9 @@
 sap.ui.define([ "sap/ui/core/UIComponent", 
 	    "sap/ui/model/json/JSONModel",
-		"nttdata/ui5/template/start/controller/HelloDialog" ], function(
+		"nttdata/ui5/techdemo/start/controller/HelloDialog" ], function(
 		UIComponent, JSONModel, HelloDialog) {
 	"use strict";
-	return UIComponent.extend("nttdata.ui5.template.start.Component", {
+	return UIComponent.extend("nttdata.ui5.techdemo.start.Component", {
 		metadata : {
 			manifest : "json"
 		},
@@ -21,7 +21,7 @@ sap.ui.define([ "sap/ui/core/UIComponent",
 
 			// set i18n model
 //			var i18nModel = new ResourceModel({
-//				bundleName : "nttdata.ui5.template.start.i18n.i18n"
+//				bundleName : "nttdata.ui5.techdemo.start.i18n.i18n"
 //			});
 //			this.setModel(i18nModel, "i18n");
 			// set dialog

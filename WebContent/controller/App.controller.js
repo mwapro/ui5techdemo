@@ -3,7 +3,7 @@ sap.ui.define([
    "sap/m/MessageToast",
 ], function (Controller, MessageToast) {
    "use strict";
-   return Controller.extend("nttdata.ui5.template.start.controller.App", {
+   return Controller.extend("nttdata.ui5.techdemo.start.controller.App", {
 
 		onOpenDialog : function () {
 			this.getOwnerComponent().openHelloDialog();

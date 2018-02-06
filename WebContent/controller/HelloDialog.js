@@ -3,7 +3,7 @@ sap.ui.define([
 ], function (UI5Object) {
 	"use strict";
 
-	return UI5Object.extend("nttdata.ui5.template.start.controller.HelloDialog", {
+	return UI5Object.extend("nttdata.ui5.techdemo.start.controller.HelloDialog", {
 
 		constructor : function (oView) {
 			this._oView = oView;	
@@ -22,7 +22,7 @@ sap.ui.define([
 					}
 				};
 				// create dialog via fragment factory
-				oDialog = sap.ui.xmlfragment(oView.getId(), "nttdata.ui5.template.start.view.HelloDialog", oFragmentController);
+				oDialog = sap.ui.xmlfragment(oView.getId(), "nttdata.ui5.techdemo.start.view.HelloDialog", oFragmentController);
 				// connect dialog to the root view of this component (models, lifecycle)
 				oView.addDependent(oDialog);
 			}

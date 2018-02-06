@@ -15,7 +15,7 @@ sap.ui.define([
 				autoRespondAfter: oUriParameters.get("serverDelay") || 1000
 			});
 			// simulate
-			var sPath = jQuery.sap.getModulePath("nttdata.ui5.template.start.localService");
+			var sPath = jQuery.sap.getModulePath("nttdata.ui5.techdemo.start.localService");
 			oMockServer.simulate(sPath + "/metadata.xml", sPath + "/mockdata");
 			// start
 			oMockServer.start();

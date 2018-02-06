@@ -1,5 +1,5 @@
 <mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" 
-   controllerName="nttdata.ui5.template.start.controller.InvoiceList">
+   controllerName="nttdata.ui5.techdemo.start.controller.InvoiceList">
 	<List id="invoiceList" 
 		headerText="{i18n>invoiceListTitle}" 
 		class="sapUiResponsiveMargin"

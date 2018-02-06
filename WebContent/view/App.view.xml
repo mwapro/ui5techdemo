@@ -1,4 +1,4 @@
-<mvc:View controllerName="nttdata.ui5.template.start.controller.App"
+<mvc:View controllerName="nttdata.ui5.techdemo.start.controller.App"
 	xmlns="sap.m" 
 	xmlns:mvc="sap.ui.core.mvc"  
 	displayBlock="true">
@@ -11,8 +11,8 @@
 						press="onOpenDialog"/>
 				</headerContent>
             <content>
-					<mvc:XMLView viewName="nttdata.ui5.template.start.view.HelloPanel"/>
-					<mvc:XMLView viewName="nttdata.ui5.template.start.view.InvoiceList"/>
+					<mvc:XMLView viewName="nttdata.ui5.techdemo.start.view.HelloPanel"/>
+					<mvc:XMLView viewName="nttdata.ui5.techdemo.start.view.InvoiceList"/>
 			</content>
          </Page>
       </pages>

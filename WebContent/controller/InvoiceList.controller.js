@@ -1,13 +1,13 @@
 sap.ui.define([
 	"sap/ui/core/mvc/Controller",
 	"sap/ui/model/json/JSONModel",
-	"nttdata/ui5/template/start/model/formatter",
+	"nttdata/ui5/techdemo/start/model/formatter",
 	"sap/ui/model/Filter",
 	"sap/ui/model/FilterOperator"
 ], function (Controller, JSONModel, formatter, Filter, FilterOperator) {
 	"use strict";
 
-	return Controller.extend("nttdata.ui5.template.start.controller.InvoiceList", {
+	return Controller.extend("nttdata.ui5.techdemo.start.controller.InvoiceList", {
 
 		formatter: formatter,
 		onInit : function () {
