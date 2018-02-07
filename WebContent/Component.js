@@ -14,11 +14,15 @@ sap.ui.define([ "sap/ui/core/UIComponent",
 			var oData = {
 				recipient : {
 					name : "World"
+				},
+				info :  {
+					ui5version : sap.ui.getCore().getConfiguration().getVersion(),
+					version : this.getManifestEntry("/sap.ui5/config")
 				}
 			};
 			var oModel = new JSONModel(oData);
 			this.setModel(oModel);
-
+			
 			// set i18n model
 //			var i18nModel = new ResourceModel({
 //				bundleName : "nttdata.ui5.techdemo.start.i18n.i18n"

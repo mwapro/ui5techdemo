@@ -6,6 +6,8 @@
       <pages>
          <Page title="{i18n>homePageTitle}">
 				<headerContent>
+				<!-- <Text text="Version UI5: {/info/version}"> 
+				</Text>		 -->
 					<Button
 						icon="sap-icon://hello-world"
 						press="onOpenDialog"/>
